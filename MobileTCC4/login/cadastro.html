@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V1</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-pic js-tilt" data-tilt>
+					<img src="images/img-01.png" alt="IMG">
+				</div>
+
+				<form class="login100-form validate-form" method="POST" action="cadastro.php">
+					<span class="login100-form-title">
+						Member Login
+					</span>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Nome completo obrigatório!">
+						<input class="input100" type="text" name="name" placeholder="Nome completo">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Email obrigatório!">
+						<input class="input100" type="text" name="email" placeholder="Email">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Senha obrigatória!">
+						<input class="input100" type="password" name="pass" placeholder="Senha">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Repitir a senha é obrigatório!">
+						<input class="input100" type="password" name="pass2" placeholder="Repita a senha">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+                    </div>
+                    
+                    <div class="wrap-input100 validate-input" data-validate = "CPF é obrigatório!">
+						<input class="input100" type="text" name="cpf" placeholder="CPF">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-id-card-o" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Data de nascimento é obrigatório!">
+						<input class="input100" type="date" name="datanasc" placeholder="Data de nascimento">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-calendar" aria-hidden="true"></i>
+						</span>
+                    </div>
+                    
+                    <div class="wrap-input100 validate-input" data-validate = "CEP é obrigatório!">
+						<input class="input100" type="text" name="cep" placeholder="CEP">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-street-view" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Endereço é obrigatório!">
+						<input class="input100" type="text" name="endereco" placeholder="Enderço">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-road" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Bairro é obrigatório!">
+						<input class="input100" type="text" name="bairro" placeholder="Bairro">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-road" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Cidade é obrigatório!">
+						<input class="input100" type="text" name="cidade" placeholder="Cidade">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-road" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "UF é obrigatório!">
+						<input class="input100" type="text" name="uf" placeholder="UF">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-road" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Número é obrigatório!">
+						<input class="input100" type="text" name="numero" placeholder="Número">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-road" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Complemento é obrigatório!">
+						<input class="input100" type="text" name="complemento" placeholder="Complemento">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-road" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Telefone pessoal é obrigatório!">
+						<input class="input100" type="text" name="telefone" placeholder="Telefone pessoal">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<!--<label style="
+						background-color: #3498db;
+						border-radius: 5px;
+						color: #fff;
+						cursor: pointer;
+						margin: 10px;
+						padding: 6px 20px"
+						for='selecao-arquivo'>Selecione uma foto para perfil &#187;</label>
+					<input name="foto" id='selecao-arquivo' type='file'>-->
+					
+					<hr>
+
+						<div style="text-align: center;">
+							<input style="margin-top: 4%;" type="checkbox" name="telefone" placeholder="Telefone pessoal">
+							
+								<span class="txt1">
+									Eu corcordo com os
+								</span>
+								<a class="txt2" href="#">
+									termos de uso
+								</a>
+						</div>
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Cadastre-se
+						</button>
+					</div>
+
+					<div class="text-center p-t-50">
+						<a class="txt2" href="index.html">
+							Possui conta? Entrar
+							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>

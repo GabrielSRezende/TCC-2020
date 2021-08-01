@@ -1,0 +1,54 @@
+:root {
+  --yelow-color: #ebd534;
+  --black-color: #000;
+  --white-color: #fff;
+  --grey-color: #d1d0c7;
+  --grey-color: #d1d0c7;
+  --bg-color: #fffeeb;
+  --grey2-color: #f5f5f5;
+}
+html body{background:#FFF}html body 
+.page-hero h3{font-size:3rem;font-weight:bold;text-shadow:-1px -1px 1px #460000,2px 2px 1px #ff4965;text-transform:uppercase;color:#bd122d}html body .page-hero p{color:#f1acb7}
+html body .card{border-radius:15px;overflow:hidden}
+html body .card-header{background: var(--black-color);color:#fff}
+html body .card-header .prevMonth{cursor:pointer}
+html body .card-header .nextMonth{cursor:pointer}
+html body .card-body{background: var(--bg-color)}
+html body .card-body .days span{
+	background:var(--grey-color);
+	color: var(--black-color);
+	border-radius:50%;
+	display:inline-block;
+	height:45px;
+	width:45px;
+	line-height:45px;
+	cursor:pointer
+}
+html body .event-date{
+	background:var(--white-color);	
+}
+html body .card-body .days span:hover{background:#f7899a}
+html body .card-body .dates span{
+	background: var(--black-color);
+	color:var(--white-color);
+	border-radius:50%;
+	display:inline-block;
+	height:45px;
+	width:45px;line-height:45px;
+	cursor:pointer
+}
+html body .day-now{
+	background: var(--yelow-color) !important;
+	color: var(--black-color) !important;
+}
+html body .card-body .dates span.active,html body .card-body .dates span:hover{background:#ffeef0;color:#000}
+html body .card-body .dates span.ntMonth{color:#938e8e;background:var(--grey2-color)}
+html body .card-body .dates span.ntMonth:hover{background:#ffeef0;color:#000}
+html body .card#event .card-header .close{color:#fff;opacity:1}
+html body .card#event .card-body .events-today{height:210px;overflow-x:hidden}
+html body .card#event .card-body .events-input .data-invalid{border-color:red}
+html body .card#event .card-body .events-input .error{font-size:12px;color:red;position:absolute;top:100%}
+@media(max-width: 767px){html body .pa-sm{position:absolute}
+html body .card-body .days span{height:38px;width:38px;line-height:38px;font-size:.8rem}
+html body .card-body .dates span{height:38px;width:38px;line-height:38px;font-size:.8rem}
+html body .card#event .card-body .events-today{height:188px}}/*# sourceMappingURL=style.css.map */
